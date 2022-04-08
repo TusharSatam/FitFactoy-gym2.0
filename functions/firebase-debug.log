@@ -334,3 +334,124 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
 [debug] [2022-04-08T06:10:24.639Z] [worker-us-central1-api-529d0829-fd29-4729-b9d8-c36abc5855e5]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-529d0829-fd29-4729-b9d8-c36abc5855e5]: IDLE"}}
 [debug] [2022-04-08T06:10:24.639Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-04-08T06:47:03.377Z] File D:\APRIL PROJECTS\fitfactory\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File D:\\APRIL PROJECTS\\fitfactory\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-04-08T06:47:04.397Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2022-04-08T06:47:04.398Z] [worker-us-central1-api-529d0829-fd29-4729-b9d8-c36abc5855e5]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-529d0829-fd29-4729-b9d8-c36abc5855e5]: FINISHING"}}
+[debug] [2022-04-08T06:47:04.426Z] Validating nodejs source
+[debug] [2022-04-08T06:48:39.250Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.215.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-08T06:48:39.251Z] Building nodejs source
+[debug] [2022-04-08T06:48:39.252Z] Analyzing nodejs backend spec
+[debug] [2022-04-08T06:48:39.281Z] [worker-us-central1-api-529d0829-fd29-4729-b9d8-c36abc5855e5]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-529d0829-fd29-4729-b9d8-c36abc5855e5]: exited"}}
+[debug] [2022-04-08T06:48:39.282Z] [worker-us-central1-api-529d0829-fd29-4729-b9d8-c36abc5855e5]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-529d0829-fd29-4729-b9d8-c36abc5855e5]: FINISHED"}}
+[debug] [2022-04-08T06:49:06.167Z] File D:\APRIL PROJECTS\fitfactory\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File D:\\APRIL PROJECTS\\fitfactory\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-04-08T06:49:07.171Z] Validating nodejs source
+[debug] [2022-04-08T06:49:16.561Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.215.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-08T06:49:16.561Z] Building nodejs source
+[debug] [2022-04-08T06:49:16.562Z] Analyzing nodejs backend spec
+[debug] [2022-04-08T06:53:35.860Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-04-08T06:53:35.862Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-08T06:53:35.863Z] Accepted request POST /gymwebsite-2/us-central1/api/payments/create?total=99900 --> us-central1-api
+[debug] [2022-04-08T06:53:35.864Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2022-04-08T06:53:36.494Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-04-08T06:53:36.494Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-04-08T06:53:36.494Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-04-08T06:53:36.495Z] [worker-us-central1-api-faeb25b3-42ed-49ee-b293-7eabe56ba63e]: Assigning socketPath: \\?\pipe\D:\APRIL PROJECTS\fitfactory\functions\90976 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-faeb25b3-42ed-49ee-b293-7eabe56ba63e]: Assigning socketPath: \\\\?\\pipe\\D:\\APRIL PROJECTS\\fitfactory\\functions\\90976"}}
+[debug] [2022-04-08T06:53:36.495Z] [worker-us-central1-api-faeb25b3-42ed-49ee-b293-7eabe56ba63e]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-faeb25b3-42ed-49ee-b293-7eabe56ba63e]: BUSY"}}
+[debug] [2022-04-08T06:55:45.696Z] [runtime-status] [90976] Functions runtime initialized. {"cwd":"D:\\APRIL PROJECTS\\fitfactory\\functions","node_version":"16.13.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Functions runtime initialized. {\"cwd\":\"D:\\\\APRIL PROJECTS\\\\fitfactory\\\\functions\",\"node_version\":\"16.13.1\"}"}}
+[debug] [2022-04-08T06:55:45.700Z] [runtime-status] [90976] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Disabled runtime features: undefined"}}
+[debug] [2022-04-08T06:55:45.721Z] [runtime-status] [90976] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.0.2","resolution":"D:\\APRIL PROJECTS\\fitfactory\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"D:\\\\APRIL PROJECTS\\\\fitfactory\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-08T06:55:45.757Z] [runtime-status] [90976] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"D:\\APRIL PROJECTS\\fitfactory\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"D:\\\\APRIL PROJECTS\\\\fitfactory\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-08T06:55:45.760Z] [runtime-status] [90976] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-04-08T06:55:45.764Z] [runtime-status] [90976] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"D:\\APRIL PROJECTS\\fitfactory\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"D:\\\\APRIL PROJECTS\\\\fitfactory\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-08T06:55:47.865Z] [runtime-status] [90976] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-04-08T06:55:47.866Z] [runtime-status] [90976] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.20.0","resolution":"D:\\APRIL PROJECTS\\fitfactory\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"D:\\\\APRIL PROJECTS\\\\fitfactory\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-04-08T06:55:47.873Z] [runtime-status] [90976] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"D:\\APRIL PROJECTS\\fitfactory\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"D:\\\\APRIL PROJECTS\\\\fitfactory\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-08T06:55:47.883Z] [runtime-status] [90976] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.0.2","resolution":"D:\\APRIL PROJECTS\\fitfactory\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"D:\\\\APRIL PROJECTS\\\\fitfactory\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-08T06:55:47.885Z] [runtime-status] [90976] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"D:\\APRIL PROJECTS\\fitfactory\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"D:\\\\APRIL PROJECTS\\\\fitfactory\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-08T06:55:47.886Z] [runtime-status] [90976] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.0.2","resolution":"D:\\APRIL PROJECTS\\fitfactory\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"D:\\\\APRIL PROJECTS\\\\fitfactory\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-04-08T06:55:50.312Z] [runtime-status] [90976] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-04-08T06:55:50.316Z] [runtime-status] [90976] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Running api in signature http"}}
+[debug] [2022-04-08T06:55:50.383Z] [runtime-status] [90976] Attempting to listen to socketPath: \\?\pipe\D:\APRIL PROJECTS\fitfactory\functions\90976 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Attempting to listen to socketPath: \\\\?\\pipe\\D:\\APRIL PROJECTS\\fitfactory\\functions\\90976"}}
+[debug] [2022-04-08T06:55:50.447Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-08T06:55:50.448Z] [functions] Got req.url=/gymwebsite-2/us-central1/api/payments/create?total=99900, mapping to path=/payments/create?total=99900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/gymwebsite-2/us-central1/api/payments/create?total=99900, mapping to path=/payments/create?total=99900"}}
+[debug] [2022-04-08T06:55:50.464Z] [runtime-status] [90976] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  99900 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  99900","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  99900"}}
+[debug] [2022-04-08T06:55:51.068Z] [runtime-status] [90976] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~2s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~2s"}}
+[debug] [2022-04-08T06:55:52.567Z] [worker-us-central1-api-faeb25b3-42ed-49ee-b293-7eabe56ba63e]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-faeb25b3-42ed-49ee-b293-7eabe56ba63e]: IDLE"}}
+[debug] [2022-04-08T06:55:52.568Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-04-08T06:56:35.533Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-04-08T06:56:35.533Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-08T06:56:35.533Z] Accepted request POST /gymwebsite-2/us-central1/api/payments/create?total=79900 --> us-central1-api
+[debug] [2022-04-08T06:56:35.533Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-04-08T06:56:35.533Z] [worker-us-central1-api-faeb25b3-42ed-49ee-b293-7eabe56ba63e]: Assigning socketPath: \\?\pipe\D:\APRIL PROJECTS\fitfactory\functions\90976 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-faeb25b3-42ed-49ee-b293-7eabe56ba63e]: Assigning socketPath: \\\\?\\pipe\\D:\\APRIL PROJECTS\\fitfactory\\functions\\90976"}}
+[debug] [2022-04-08T06:56:35.534Z] [worker-us-central1-api-faeb25b3-42ed-49ee-b293-7eabe56ba63e]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-faeb25b3-42ed-49ee-b293-7eabe56ba63e]: BUSY"}}
+[debug] [2022-04-08T06:56:35.535Z] [runtime-status] [90976] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-04-08T06:56:35.536Z] [runtime-status] [90976] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Running api in signature http"}}
+[debug] [2022-04-08T06:56:35.537Z] [runtime-status] [90976] Attempting to listen to socketPath: \\?\pipe\D:\APRIL PROJECTS\fitfactory\functions\90976 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Attempting to listen to socketPath: \\\\?\\pipe\\D:\\APRIL PROJECTS\\fitfactory\\functions\\90976"}}
+[debug] [2022-04-08T06:56:35.542Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-08T06:56:35.543Z] [functions] Got req.url=/gymwebsite-2/us-central1/api/payments/create?total=79900, mapping to path=/payments/create?total=79900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/gymwebsite-2/us-central1/api/payments/create?total=79900, mapping to path=/payments/create?total=79900"}}
+[debug] [2022-04-08T06:56:35.547Z] [runtime-status] [90976] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  79900 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  79900","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  79900"}}
+[debug] [2022-04-08T06:56:35.552Z] [runtime-status] [90976] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [90976] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-04-08T06:56:35.939Z] [worker-us-central1-api-faeb25b3-42ed-49ee-b293-7eabe56ba63e]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-faeb25b3-42ed-49ee-b293-7eabe56ba63e]: IDLE"}}
+[debug] [2022-04-08T06:56:35.940Z] [work-queue] {"queueLength":0,"workRunningCount":0}
