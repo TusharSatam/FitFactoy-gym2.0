@@ -57,6 +57,7 @@
   color:white;
 font-weight:600;
 cursor:pointer;
+
 }
 
 .headerMainContent{
@@ -371,6 +372,10 @@ left:0; */
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+
+  .hinfos,.hinfo{
+    height: 60px;
   }
 
 }

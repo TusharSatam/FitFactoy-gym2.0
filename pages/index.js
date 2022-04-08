@@ -48,7 +48,7 @@ transition={{duration: 1.3}}
 animate={{opacity:1}}
 transition={{duration: 1.8}}
   className={styles.HomeTopname}>The Fit Factory</motion.p>
-  <Link className={styles.joinNow} href="/plans">Join Now</Link>
+  <a className={styles.joinNow} href="/plans">Join Now</a>
 <motion.div className={styles.scrollerarrow}  initial={{y:0}} animate={{y:10}}   transition={{ repeat: Infinity, duration:1 }} >
 <Image alt="sas" src={uparrow} objectFit={"cover"}  layout="fill"/>
 </motion.div>

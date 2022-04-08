@@ -64,6 +64,13 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+.homeTopImage>a{
+  color:white;
+  border: 2px solid #f95959;
+  z-index:5;
+}
+
 @media only screen and (max-width: 500px) {
 li{
   margin:1rem 0px;
