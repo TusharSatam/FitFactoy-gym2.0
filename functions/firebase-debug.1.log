@@ -1,0 +1,24 @@
+[debug] [2022-04-08T17:38:03.873Z] ----------------------------------------------------------------------
+[debug] [2022-04-08T17:38:03.876Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions
+[debug] [2022-04-08T17:38:03.876Z] CLI Version:   10.6.0
+[debug] [2022-04-08T17:38:03.877Z] Platform:      win32
+[debug] [2022-04-08T17:38:03.877Z] Node Version:  v16.13.1
+[debug] [2022-04-08T17:38:03.879Z] Time:          Fri Apr 08 2022 23:08:03 GMT+0530 (India Standard Time)
+[debug] [2022-04-08T17:38:03.879Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-08T17:38:03.958Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-08T17:38:03.958Z] > authorizing via signed-in user (tsatam91@gmail.com)
+[debug] [2022-04-08T17:38:03.958Z] [iam] checking project gymwebsite-2 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2022-04-08T17:38:03.961Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/gymwebsite-2:testIamPermissions [none]
+[debug] [2022-04-08T17:38:03.961Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gymwebsite-2:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2022-04-08T17:38:06.141Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/gymwebsite-2:testIamPermissions 200
+[debug] [2022-04-08T17:38:06.141Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gymwebsite-2:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2022-04-08T17:38:06.142Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/gymwebsite-2/serviceAccounts/gymwebsite-2@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2022-04-08T17:38:06.142Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/gymwebsite-2/serviceAccounts/gymwebsite-2@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-04-08T17:38:08.275Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/gymwebsite-2/serviceAccounts/gymwebsite-2@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2022-04-08T17:38:08.275Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/gymwebsite-2/serviceAccounts/gymwebsite-2@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[info] 
+[info] === Deploying to 'gymwebsite-2'...
+[info] 
+[info] i  deploying functions 
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint

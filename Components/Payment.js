@@ -35,13 +35,13 @@ let response;
 setdiscount(discountamount)
     response = await axios({
       method: "post",
-      url: `/payments/create?total=${discountamount* 100}`,
+      url: `/payments/create?total=${discountamount*100}`,
     });
   }
   if(!successcode){
     response = await axios({
       method: "post",
-      url: `/payments/create?total=${formdata?.amount * 100}`,
+      url: `/payments/create?total=${formdata?.amount*100}`,
     });
   }
 
