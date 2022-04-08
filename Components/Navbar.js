@@ -137,7 +137,7 @@ const [memberexists,setmemberexists]=useState(false)
               </ActiveLink>
             </motion.li>
             {memberexists &&          
-            <motion.li initial={{x:200}} animate={{x:0}} transition={{duration:.1}}>
+            <motion.li initial={{x:200}} animate={{x:0}} transition={{duration:.6}}>
               <ActiveLink activeClassName="active" href="/myplan">
                 <a>MYPLAN</a>
               </ActiveLink>

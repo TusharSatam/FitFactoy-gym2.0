@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import {gRTUT} from "./Clockfunction"
 
-const Clock = ({countdownTimestampMs,setremainingTime,remainingTime}) => {
+const Clock = ({countdownTimestampMs,setremainingTime,remainingTime,days}) => {
 
 useEffect(()=>{
     const intervalid=setInterval(()=>{
@@ -15,7 +15,7 @@ function UpdateRemainingTime(countdown){
 
 
   return (
-    <div>{parseInt(remainingTime?.days)+1} days</div>
+    <div> {days} days</div>
   )
 }
  

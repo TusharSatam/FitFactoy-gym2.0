@@ -60,9 +60,9 @@ const Activeplan = () => {
           {data?.days == 180 && <span><i>Expire on </i>: {enddates}</span>}
           {data?.days == 365 && <span><i>Expire on </i>: {enddatess}</span>}
           <div className={style.daysleft}>
-          {data?.days == 30 &&  <Clock countdownTimestampMs={enddate} setremainingTime={setremainingTime} remainingTime={remainingTime}/>}
-          {data?.days == 180 &&  <Clock countdownTimestampMs={enddates} setremainingTime={setremainingTime} remainingTime={remainingTime}/>}
-          {data?.days == 365 &&  <Clock countdownTimestampMs={enddatess} setremainingTime={setremainingTime} remainingTime={remainingTime}/>}
+          {data?.days == 30 &&  <Clock countdownTimestampMs={enddate} setremainingTime={setremainingTime} remainingTime={remainingTime} days={data?.days}/>}
+          {data?.days == 180 &&  <Clock countdownTimestampMs={enddates} setremainingTime={setremainingTime} remainingTime={remainingTime}  days={data?.days}/>}
+          {data?.days == 365 &&  <Clock countdownTimestampMs={enddatess} setremainingTime={setremainingTime} remainingTime={remainingTime}  days={data?.days}/>}
           </div>
          
         </div>
