@@ -1,0 +1,92 @@
+.AboutContainer{
+    position:relative;
+    min-height:80vh;
+    background-color:#F7F7F7;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    }
+    .aboutTopiamge{
+    position:absolute;
+    width:100vw;
+    height: 70vh;
+    top:0;
+    }
+    .aboutMainContent{
+        min-height:100vh;
+        width:80vw;
+        margin:auto 0px;
+        background-color:white;
+        z-index:1;
+        margin-top:20rem;
+    }
+    .pageheading{
+        color:#f95959;
+    }
+    .heading1,.heading2,.heading3{
+        padding:2rem;
+    }
+    .h3{
+        color:#f95959;
+        margin:5px 0px;
+    
+    }
+    .h4{
+        color:grey;
+        margin:5px 0px;
+    
+    }
+    .aboutvideos{
+        width:100%;
+        margin:auto 0px;
+        height:20rem;
+        background-color: black;
+    }
+    
+    
+    /* infos */
+    .coachinfos{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    }
+    .coach{
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items: center;
+        padding: 2rem;
+        box-shadow: 0px 4px 14px -3px rgba(0, 0, 0, 0.7);
+        width:100%;
+    
+    }
+    .coachImage{
+    
+    }
+    .coachdetails{
+        display: flex;
+        flex-direction:column;
+        justify-content:space-evenly;
+        align-items: flex-start;
+        padding:0px 2rem;
+    
+    
+    }
+    
+    
+    
+    @media only screen and (max-width: 800px) {
+        .aboutMainContent{
+            width:100vw;
+        }
+    .coach{
+        padding:10px;
+        flex-direction:column;
+        }
+        .h3,.h4{
+            margin:0px 0px;
+        }
+        
+    }

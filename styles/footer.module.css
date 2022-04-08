@@ -1,0 +1,95 @@
+.Container {
+    color: black;
+    min-height: 20vh;
+    background-color: #1A132F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 1rem;
+}
+
+.details {
+    width: 20vw;
+    margin: 0px .5rem;
+}
+
+.det {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.p {
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.usefulLinks {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.SocialMedia {
+    display: flex;
+    flex-direction: row;
+    margin:1rem 0px;
+}
+
+.TwitterIcon {
+    color: lightblue;
+    margin: 0px .5rem;
+}
+
+.InstagramIcon {
+    color: crimson;
+    margin: 0px .5rem;
+
+}
+
+.FacebookIcon {
+    color: rgb(68, 68, 230);
+    margin: 0px .5rem;
+
+}
+.aboutFF{
+    width:20vw;
+
+}
+.contactUsButton{
+    margin:2rem 0px;
+}
+.a_Contact{
+    padding:.3rem;
+    border: 1px solid whitesmoke;
+    border-radius:1rem;
+  color:#f95959;
+
+}
+.h2{
+  color:#f95959;
+}
+@media (max-width: 600px) {
+    .Container{
+        flex-wrap:wrap;
+
+    }
+.details,.aboutFF{
+    width:38vw;
+    margin:10px;
+}
+.h2{
+    font-size:1.4rem;
+    margin:2px 0px;
+}
+.a_Contact{
+    font-size:12px;
+}
+.p{
+    margin-bottom: 0px;
+}
+}
