@@ -15,7 +15,7 @@ function UpdateRemainingTime(countdown){
 
 
   return (
-    <div>{parseInt(remainingTime?.days)+1} days {remainingTime?.hours}</div>
+    <div>{parseInt(remainingTime?.days)+1} days</div>
   )
 }
  
